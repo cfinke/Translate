@@ -1,0 +1,10 @@
+<!ENTITY translate.toolbar.label "翻译">
+<!ENTITY translate.toolbar.tooltip "翻译此页面">
+
+<!ENTITY translate.toolbar.quick.label "快速翻译">
+<!ENTITY translate.toolbar.quick.tooltip "快速翻译 -> 英语">
+
+<!ENTITY translate.context.label "翻译">
+
+<!ENTITY translate.menu.label "翻译">
+<!ENTITY translate.menu.options.label "选项">

@@ -1,0 +1,10 @@
+<!ENTITY translate.toolbar.label "Translate">
+<!ENTITY translate.toolbar.tooltip "Translate this web page">
+
+<!ENTITY translate.toolbar.quick.label "Quick Translate">
+<!ENTITY translate.toolbar.quick.tooltip "Quick translate -> English">
+
+<!ENTITY translate.context.label "Translate">
+
+<!ENTITY translate.menu.label "Translate">
+<!ENTITY translate.menu.options.label "Options">

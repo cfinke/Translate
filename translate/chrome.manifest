@@ -1,0 +1,14 @@
+content     translate                    jar:chrome/translate.jar!/content/
+skin        translate      classic       jar:chrome/translate.jar!/skin/
+
+overlay     chrome://browser/content/browser.xul           chrome://translate/content/translate.xul
+
+style       chrome://browser/content/browser.xul           chrome://translate/skin/translate.css
+style       chrome://global/content/customizeToolbar.xul   chrome://translate/skin/translate.css
+
+locale      translate    de-DE    jar:chrome/translate.jar!/locale/de-DE/
+locale      translate    en-US    jar:chrome/translate.jar!/locale/en-US/
+locale      translate    fr-FR    jar:chrome/translate.jar!/locale/fr-FR/
+locale      translate    it-IT    jar:chrome/translate.jar!/locale/it-IT/
+locale      translate    ro-RO    jar:chrome/translate.jar!/locale/ro-RO/
+locale      translate    zh-CN    jar:chrome/translate.jar!/locale/zh-CN/

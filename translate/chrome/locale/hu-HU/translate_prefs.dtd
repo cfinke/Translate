@@ -1,0 +1,7 @@
+<!ENTITY translate.prefs.name "Beállítások">
+<!ENTITY translate.prefs.groupbox.ui "Nyelv">
+<!ENTITY translate.prefs "Translate">
+<!ENTITY translate.prefs.menus "Menük">
+<!ENTITY translate.prefs.menus.tool "Megjelenés az eszközök menüben">
+<!ENTITY translate.prefs.menus.context "Megjelenés a környezetérzékeny menüben">
+<!ENTITY translate.prefs.menus.language "Anyanyelved">

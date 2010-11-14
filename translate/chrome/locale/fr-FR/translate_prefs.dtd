@@ -1,0 +1,8 @@
+<!ENTITY translate.prefs.name "Préférences">
+<!ENTITY translate.prefs.groupbox.ui "Langue">
+<!ENTITY translate.prefs "Traduire">
+<!ENTITY translate.prefs.menus "Menus">
+<!ENTITY translate.prefs.menus.tool "Afficher dans le menu Outils">
+<!ENTITY translate.prefs.menus.context "Afficher dans le menu contextuel">
+<!ENTITY translate.prefs.menus.language "Sélectionnez votre langue">
+

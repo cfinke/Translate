@@ -1,0 +1,10 @@
+<!ENTITY translate.toolbar.label "Translate">
+<!ENTITY translate.toolbar.tooltip "Oldal fordítása">
+
+<!ENTITY translate.toolbar.quick.label "Gyors fordítás">
+<!ENTITY translate.toolbar.quick.tooltip "Gyors fordítás -> Angol">
+
+<!ENTITY translate.context.label "Fordítás">
+
+<!ENTITY translate.menu.label "Fordítás">
+<!ENTITY translate.menu.options.label "Beállítások">

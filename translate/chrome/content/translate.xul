@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://translate/locale/translate.dtd" >
+<overlay id="translateToolbarOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://translate/content/language_pairs.js"/>
+	<script type="application/x-javascript" src="chrome://translate/content/translate-prefs.js"/>
+	<script type="application/x-javascript" src="chrome://translate/content/translate.js"/>
+	
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="bundle-translate" src="chrome://translate/locale/translate.properties"/>
+	</stringbundleset>
+	
+	<menupopup id="menu_ToolsPopup">
+		<menu id="translate-pg-menu" label="&translate.menu.label;" insertbefore="prefSep">
+			<menupopup id="translate-tool-menu">
+				<menuseparator id="translate-options-separator"/>
+				<menuitem label="&translate.menu.options.label;" id="translate-options" oncommand="gPGTranslate.openPrefs();" />
+			</menupopup>
+		</menu>
+	</menupopup>
+	
+	<toolbarpalette id="BrowserToolbarPalette" >
+		<toolbarbutton
+			label="&translate.toolbar.label;"
+			class="translate-tool-en toolbarbutton-1"
+			id="translate-pg"
+			tooltiptext="&translate.toolbar.tooltip;"
+			type="menu-button"
+			oncommand="if (event.target == this) { gPGTranslate.quickTranslate(); }">
+			<menupopup id="translate-toolbutton-menupopup" onpopupshowing="gPGTranslate.fillToolbutton();" />
+		</toolbarbutton>
+	</toolbarpalette>
+	
+	<popup id="contentAreaContextMenu">
+		<menuseparator id="translateSeparator"/>
+		<menu label="&translate.context.label;"  id="translate-context">
+			<!-- menuitems added dynamically here  -->
+		</menu>
+	</popup>
+</overlay>

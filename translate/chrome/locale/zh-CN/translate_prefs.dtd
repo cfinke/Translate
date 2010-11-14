@@ -1,0 +1,7 @@
+<!ENTITY translate.prefs.name "设置">
+<!ENTITY translate.prefs.groupbox.ui "语言">
+<!ENTITY translate.prefs "翻译">
+<!ENTITY translate.prefs.menus "菜单">
+<!ENTITY translate.prefs.menus.tool "显示工具栏菜单">
+<!ENTITY translate.prefs.menus.context "显示右键菜单">
+<!ENTITY translate.prefs.menus.language "选择您使用的语言">

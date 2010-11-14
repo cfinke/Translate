@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://translate/locale/translate_prefs.dtd">
+<dialog
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	id="translate-preferences"
+	title="&translate.prefs;"
+	buttons="accept, cancel"
+	ondialogaccept="pg_prefs_accept()" onload="pg_prefs_load()">
+	
+	<script type="application/x-javascript" src="chrome://translate/content/translate-prefs.js"/>
+	<script type="application/x-javascript" src="chrome://translate/content/language_pairs.js"/>
+	<script type="application/x-javascript" src="chrome://translate/content/translate-options.js"/>
+	
+	<description value="&translate.prefs.name;" style="background-color:white; min-width:400px; padding:5px; margin:0px; font-size:1.2em;"/>
+	
+	<groupbox>
+	<caption label="&translate.prefs.menus;"/>
+		<hbox align="center">
+			<checkbox label="&translate.prefs.menus.tool;"  id="translate.prefs.displayTools"/>
+			<checkbox label="&translate.prefs.menus.context;" id="translate.prefs.contextMenu" />
+		</hbox>
+	</groupbox>
+	<groupbox>
+		<caption label="&translate.prefs.groupbox.ui;"/>
+		<hbox align="center">
+			<label value="&translate.prefs.menus.language;"/>    
+			<menulist id="translate.prefs.language.selection">
+				<!-- PGTranslate_prefs.prototype.initListBox fills the listbox with listitems  -->
+			</menulist>   
+		</hbox> 
+	</groupbox>
+</dialog>

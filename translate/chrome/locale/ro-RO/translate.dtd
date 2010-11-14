@@ -1,0 +1,10 @@
+<!ENTITY translate.toolbar.label "Translate">
+<!ENTITY translate.toolbar.tooltip "Tradu această pagină">
+
+<!ENTITY translate.toolbar.quick.label "Traducerea rapidă">
+<!ENTITY translate.toolbar.quick.tooltip "Traducerea -> Engleză">
+
+<!ENTITY translate.context.label "Translate">
+
+<!ENTITY translate.menu.label "Translate">
+<!ENTITY translate.menu.options.label "Opţiuni">
